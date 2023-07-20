@@ -1,0 +1,5 @@
+variableName,default,id,css,xpath,name,linked link,partial link
+usernameInputField,xpath,username ,#username,//input[@type='email'] ,username,,
+passwordInputField,id,password,#password,//input[@type='password'],pw,,
+continueButton,css,continue,.a-button-inner > #continue,//input[@id='continue'],,,
+signInButton,xpath,Login,input[value='Log In'],//input[@type="submit"],Login,,

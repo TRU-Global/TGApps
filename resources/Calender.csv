@@ -1,0 +1,18 @@
+variableName,default,id,css,xpath,xpath1,xpath2
+calender,xpath,calendarHome,#calendarHome,//span[text()='Calendar'],//a[@title='Calendar']/span[text()='Calendar'],//one-app-nav-bar-item-root[7]/a/span
+newevent,xath2,,,//button[text()='New Event'],//*[@id="calendarHome"]/div/div[1]/div/div/div[2]/button[3],//div[@class='slds-col slds-no-flex slds-grid slds-align-top calendar-controls']/button[text()='New Event']
+subject,xpath1,combobox-input-847,#combobox-input-262,//input[@id="combobox-input-262"],//input[@aria-controls="dropdown-element-262"],
+startdate,xpath,input-266,#input-266,//input[@id="input-266"],(//input[@class="slds-input"])[1],(//input[@type="text"])[2]
+starttime,xpath,combobox-input-270,#combobox-input-270,//input[@id="combobox-input-270"],(//input[@class="slds-combobox__input slds-input slds-combobox__input-value"])[2],//input[@aria-controls="dropdown-element-270"]
+enddate,xpath,input-273,#input-273,//input[@id="input-273"],(//input[@class="slds-input"])[2],
+endtime,xpath1,combobox-input-260,#combobox-input-260,//input[@id="combobox-input-260"],(//input[@class="slds-combobox__input slds-input slds-combobox__input-value"])[3],(//lightning-timepicker/div/lightning-base-combobox/div/div/input)[2]
+save,xpath,,,//span[text()="Save"],//button[@class="slds-button slds-button--neutral uiButton--brand uiButton forceActionButton"],
+Assigned to,xpath1,22:2408;a,#22:2408;a,(//span[text()="Assigned To"])[1],//*[@id="22:2408;a"],/html/body/div[4]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/article/div[3]/div/div[1]/div/div/div[1]/div[2]/div/div/div/div/div/div/div[1]/div[2]/input
+rv,xpath,brandBand_1,#brandBand_1,//span[text()="Recently Viewed"],(//span[@data-aura-class="uiOutputText"])[1],//*[@id="brandBand_1"]/div/div/div/div/div[1]/div[1]/div[1]/div/div/div/div/div/div[1]/h1/span[2]
+resd,xpath,brandBand_2,#brandBand_2,//span[text()="My Recent Events"],//span[@class="triggerLinkText selectedListView slds-page-header__title slds-truncate slds-p-right--xx-small uiOutputText"],
+tucesd,xpath,brandBand_2,#brandBand_2,//span[text()="My Team's Upcoming Events"],(//span[@data-aura-class="uiOutputText"])[59],//span[@data-aura-rendered-by="3492:0"]
+ucesd,xpath,brandBand_2 ,#brandBand_2 ,(//span[text()="My Upcoming Events"])[1],(//span[text()="My Upcoming Events"])[2],
+ntwsd,xpath,brandBand_2,#brandBand_2,//span[text()="New This Week"],//*[@id="brandBand_2"]/div/div/div[2]/div/div/div[1]/div[1]/div[1]/div/div/div/div/div/div[1]/h1/span[2],(//span[@data-aura-class="uiOutputText"])[35]
+dd,xpath1,id="2062:0",#id="2062:0",//*[@id="2062:0"]/div/div[2]/div/button,/html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/div/div[1]/div[1]/div[1]/div/div/div/div/div/div[2]/div/button,
+tasd,xpath1,virtualAutoCompleteMenuOption_8a20c338ec7a9,#virtualAutoCompleteMenuOption_8a20c338ec7a9,//a[@id="virtualAutoCompleteMenuOption_8a20c338ec7a9"],/html/body/div[4]/div[2]/div/div/div[1]/div/div/div/div/div[1]/div/ul/li[8]/a,(//a[@href="javascript:void(0);"])[66]
+refresh,,brandBand_2,#brandBand_2,//span[text()="Refresh"],//*[@id="brandBand_2"]/div/div/div[2]/div/div/div[1]/div[2]/div[3]/force-list-view-manager-button-bar/div/div/lightning-button-icon/button/lightning-primitive-icon,//button[@title="Refresh"]

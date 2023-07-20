@@ -1,0 +1,9 @@
+variableName,default,id,css,xpath,name,linkText,partialLinkText,className
+fullname,,"address-ui-widgets-enterAddressFullName",,,,,,,
+phonenumber,,"address-ui-widgets-enterAddressPhoneNumber",,,,,,,
+pincode,,"address-ui-widgets-enterAddressPostalCode",,,,,,,
+address1,,"address-ui-widgets-enterAddressLine1",,,,,,,
+address2,,"address-ui-widgets-enterAddressLine2",,,,,,,
+landmark,,"address-ui-widgets-landmark",,,,,,,
+city,,"address-ui-widgets-enterAddressCity",,,,,,,
+addAddressButton,,,,"//input[@type='submit']",,,,,

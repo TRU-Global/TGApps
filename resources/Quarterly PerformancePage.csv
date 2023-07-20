@@ -1,0 +1,6 @@
+variableName,default,id,css,xpath,name,linkText,partialLinkText,className
+Quarterly Performance,name,,,//span[text()='Quarterly Performance'],,,,slds-card__header-title slds-truncate
+Closed,xpath,,,//span[text()='Closed'][1],,,,metricLabel 
+Open,id,,,//span[text()='Open (>70%)'],,,,metricLabel 
+Goals,class,,,//span[text()='Goal'],,,,metricLabel
+quarterlyPerformance,xpath,,,"//span[text()='Quarterly Performance']",,,,metricLabel 
